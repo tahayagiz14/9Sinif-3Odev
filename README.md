@@ -33,14 +33,14 @@ Bulduğum ikinci dereceden denklem (x= konum, t=zaman, *x= at^2+b*t + c*) şu ş
 *x = -1.22*t^2 + 1.81*t + 3.92E-03* 
 
 
-Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun (Aşağıda yeni bir tablo oluşturun ve yukarıdaki tabloya 3-4 tane kendi ölçümünü ekleyiniz.) Kullandığınız Google Sheet için [buraya](link ver) link verin (Google Sheet herkese açık erişimli olsun.) 
+Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun (Aşağıda yeni bir tablo oluşturun ve yukarıdaki tabloya 3-4 tane kendi ölçümünü ekleyiniz.) Kullandığınız Google Sheet için [buraya](link ver) link verin (Google Sheet herkese açık erişimli olsun.) Google Sheet linki :https://docs.google.com/spreadsheets/d/1rC6cXckLAmPCu3ZViDlOgiOy1FEZ-iWTAPTvGHbrM3g/edit?usp=sharing
 
 a) Denkleminizi **buraya yazınız**. Sizce a, b, ve c'nin fiziksel anlamları ne olabilir? (Yardım: bir tanesi ivme ile ilgili, bir tanesi ilk hız ile, diğeri konum ile ilgili).  Sizce niçin a'nın değeri negatif? 
-
+Denklemim:0,0143*x+0,024//A NIN negatif olmasının nendeni orjinsden başlamadığı için olabilir.
 b) Hava sürtünmesini ihmal edersek, bu harakette ivme sabit midir? 
-
+Hayır değildir.Düzensiz artıyor.
 c) Video'daki cismin atılış hızı farklı olsaydı (diğer herşey aynı, kütle, yüzey, vb. Hava sürtünmesini ihmal edin), sizce formülde hangi terimler değişecekti? (a, b veya c) 
-
+Hız arttığı için ivme ve daha uzağa gittiği için konumda artacaktır. Bu yüzden ave b nin değişeceğini düşünüyorum.
 # Bölüm 2 (İvmeli Hareketin Ortalama Hız-Zaman Grafiği)
 Bu sefer aynı cismin zaman-hız (ortalama hız) grafiğini çizeceksiniz. Bunun için *1.Bölümde* aldığımız sonuçları kullanacağız. Ortalama hızı bulmak için derste öğrendiğimiz ortalama hız formülünü (Delta x/ Delta t) kullanacağız. Google Sheet kullanarak hız-zaman grafiği nasıl çizildiğini anlamak için  [bu videoya](https://www.youtube.com/watch?v=67IsHRmcmfE&t) bakınız. Ortalama hız-zaman grafiğini çizilirken, ortalama hıza karşılık gelen zamanı nasıl belirleyeceksin? Bir andaki  ortalama hızı hesaplarken o noktadan önceki ve o noktadan sonraki (t,x) noktalarını kullanacaksın. Bu yüzden konum grafiğimde 11 veri noktam varken, hız-zaman grafiğinde veri noktam 9'a düştü. (İlk baştaki ve son baştaki noktalar için ortalama hızı hesaplayamam çünkü başlangıç noktasından önce ve bitiş noktasından sonraki (t,x) bilgilerine sahip değilim.)
 
@@ -49,17 +49,18 @@ Ben kendi verilerim için bir google sheet hazırladım. [Buraya](https://docs.g
 kullandım. Konum-zaman grafiği 2.dereceden bir denklem iken, hız-zaman grafiği 1.dereceden (linear-doğrusal) denklem. 
 
 1) Kendi aldığınız verileri kullanarak **ortalama hız-zaman** grafiğini Google çiziniz. [Buraya](link ver) link veriniz.
-
+Grafik linkim:(https://docs.google.com/spreadsheets/d/1m7DsJlKdIkA2Sjmu99sJLFJV7U7nbbyh06dwQVqCvk0/edit?usp=sharing)
 2) Aynı Google Sheet'i kullanarak ivme verilerini Google Sheet'inize girin. (Bu sefer 7 tane ivme veriniz olacak.) İvme-zaman grafiğini çiziniz.
-
+Çizdiğim İvme zaman grafiğinin linki:(https://docs.google.com/spreadsheets/d/1IR6jTTkQjQ3vM89K5EDWgrCT1rE9AH2sqJ-aX926_FE/edit?usp=sharing)
 3) İvme'yi ne buldunuz? Bu ivme değerini kullanarak 1kg'lık cisim ile yüzey arasındaki kinetik sürtünme katsayısını bulunuz. 
-
+Hocam ben ivmeyi şaşırtıcı şekilde ilk başta -18,daha 80 saniye sonra ise -1,5 a düşmüştü ve giderek artıyordu.
 # Bölüm 3 (Hala Beni Öldürmeyi Düşünmüyorsan)
 1) Bu deneyde ölçüm hatalarım var. Zamandaki ölçüm hatam sizce kaç ms (mili saniye) nedir? Konumdaki ölçüm hatam sizce kaç cm'dir? 
-
+Sanırım 2 ms civarında hatanız var.Mesafe olarakda 0,05 cm veya daha az farklar var diye gördüm ben.
 2) Acaba hiç grafik çizmeden sürtünme katsayısını bulabilir miydim?  (Cevap: Evet). 
 Yardım:
 * Düzgün ivmelenen bir cisim için alınan yol formülü x = (ilk hız+ son hız)/2*t, burdan cismin ilk hızını bulunuz. 
 * Daha sonra iş-kinetik enerji teorimini kullanarak sürtünme kuvvetini bulun. Sürtünme kuvvetinden, kinetik sürtünme katsayısını bulunuz.
 
 3) Bu video'dan statik sürtünme katsayısını bulabilir miydim? 
+Cismin hızın belli saniyeye kadar daha az arttığı ama o saniyeden sonra daha fazla arttığı saniye üzerinden ölçüm yaparsak eğer statik sürtünme yi bulabiliriz.
